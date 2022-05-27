@@ -68,6 +68,32 @@ section{
   color: #5D5E6C;
 }
 
+/* IDEAL BUSINESS DEVELOPMENT PLATFORM */
+
+.ideal-BDP .heading{
+  margin-bottom: 80px;
+}
+
+.ideal-BDP .box{
+  background: #F8F9F9;
+  border-radius: 15px;
+  padding: 0 25px 30px;
+  height: 100%;
+}
+
+.ideal-BDP .box .icons{
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+
+.ideal-BDP .box .title{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #39374D;
+}
+
 /* FUTURE SOFTWARE */
 
 .future-software .heading{
@@ -88,7 +114,7 @@ section{
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 105px;
+  height: 110px;
   background: #F8F9F9;
   border-radius: 8px;
 }
@@ -443,7 +469,13 @@ section{
   color: #ffffff;
   padding: 12px;
   background: #1F85EA;
+  border: 1px solid #1F85EA;
   border-radius: 4px;
+}
+
+.hero-form .form-btn:hover{
+  background: #fff;
+  color: #1F85EA;
 }
 
 .hero-form .content {
