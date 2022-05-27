@@ -8,32 +8,135 @@
   src: url(Avenir-Heavy.ttf);
   font-weight: 700;
 }
+ul {
+  max-width: 620px;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  display: grid;
+}
+li {
+  padding-left: 40px;
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 12px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #5d5e6c;
+}
 
-h1.banner-title{
+h4{
     font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 30px;
+text-transform: capitalize;
+color: #333333;
+}
+
+.btn-primary {
+  background: #1f85ea;
+}
+.masthead {
+  height: 82vh;
+  min-height: 500px;
+  background-image: url("../img/hero-banner-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1.banner-title {
+  font-family: "Futura";
   font-style: normal;
   font-weight: 800;
   font-size: 56px;
   line-height: 64px;
-  /* or 114% */
-  
   text-transform: uppercase;
-  
-  /* blue/400 */
-  
-  color: #F3F8FF;
-  }
+  color: #f3f8ff;
+  margin-bottom: 20px;
+}
+p.banner-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f3f8ff;
+  margin-bottom: 20px;
+}
 
 .do-you-relate {
-    height: 75vh;
-    min-height: 500px;
-    background-image: url('../img/efficient-image.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+  height: 75vh;
+  min-height: 500px;
+  background-image: url("../img/efficient-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+.scalable {
+  background: #f3f8ff;
+}
+.scalable ul {
+  max-width: 620px;
+}
+.scalable li {
+  background: url(../img/pointers.svg) no-repeat left 9px;
+}
+.process-svg g circle{
+    transition:all ease-in-out 300ms;
+    -webkit-transition:all ease-in-out 300ms;
+    -moz-transition:all ease-in-out 300ms;
+    -ms-transition:all ease-in-out 300ms;
+    -o-transition:all ease-in-out 300ms;
+}
+.process-svg g:hover > circle{
+    fill: #1F85EA !important;
+    
+}
+.process-svg g:hover > g path{
+    fill: #fff ;
+}
+.process-svg g:hover > g#626631{
+    fill: inherit ;
+}
 
+.build {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 66%,
+    rgba(14, 82, 149, 1) 66%,
+    rgba(14, 82, 149, 1) 100%
+  );
+}
+.build li {
+  background: url(../img/tick.svg) no-repeat left 7px;
+  padding-left: 48px;
+}
+.industries .card-container {
+  background: #F8F9F9;
+  border-radius: 5px;
+  padding: 32px 28px;
+  height: 100%;
+}
+.industries .card-container:hover {
+    background: #F3F8FF;
+  }
+.industries .card-container p {
+  color: #5D5E6C;
+  margin-bottom: 0;
+  padding-bottom: 0;
   
+}
 
 @media (max-width: 1199.98px) {
 }
