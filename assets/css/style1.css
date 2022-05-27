@@ -170,6 +170,15 @@ color: #39374D;
   margin-bottom: 0;
   padding-bottom: 0;
 }
+.measurable {
+    height: 75vh;
+    min-height: 500px;    
+    padding: 0;
+  }
+
+  .software p{
+    max-width: 350px;
+  }
 
 @media (max-width: 1199.98px) {
 }
