@@ -36,6 +36,10 @@ h6 {
   font-weight: 500;
 }
 
+section{
+  padding: 70px 0;
+}
+
 .heading {
   font-family: "Futura";
   font-size: 52px;
@@ -48,6 +52,114 @@ h6 {
 .heading span {
   font-family: "Futura";
   font-weight: 500;
+}
+
+.text-lg{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #5D5E6C;
+}
+
+.text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5D5E6C;
+}
+
+/* GET PRODUCTIVE GET EASY CLOUD */
+
+.get-productive{
+  background: #F3F8FF;
+}
+
+.get-productive .target{
+  margin-left: -20px;
+}
+
+.tabs{
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-right: 30px;
+  cursor: pointer;
+  margin-top: 25px;
+  position: relative;
+}
+
+.tabs.active{
+  background-color: #0E5295;
+}
+
+.tabs.active::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -20px;
+  width: 0; 
+  height: 0; 
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 20px solid #0E5295;
+}
+
+.tabs.active .tab-title{
+  color: #ffffff;
+}
+
+.tabs.active .text{
+  color: #ffffff;
+}
+
+.tabs .tab-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #141414;
+  margin-bottom: 5px;
+}
+
+/* OUR TEAM */
+
+.our-team .img{
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.our-team .team-box{
+  margin-top: 36px;
+}
+
+.our-team .team-box .img img{
+  transition: all 0.3s;
+}
+
+.our-team .team-box:hover .img img{
+  transform: scale(1.1);
+}
+
+.team-box .name{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+  margin-bottom: 4px;
+}
+
+.team-box .designation{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.team-box .linkedin{
+  color: #1F85EA;
+  font-size: 24px;
 }
 
 /* HERO FORM */
@@ -76,7 +188,7 @@ h6 {
 }
 
 .hero-form .form-group {
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 .hero-form .form-control{
