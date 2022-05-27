@@ -8,32 +8,75 @@
   src: url(Avenir-Heavy.ttf);
   font-weight: 700;
 }
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  display: grid;
+}
 
-h1.banner-title{
-    font-family: 'Futura';
+.btn-primary {
+  background: #1f85ea;
+}
+.masthead {
+  height: 82vh;
+  min-height: 500px;
+  background-image: url("../img/hero-banner-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1.banner-title {
+  font-family: "Futura";
   font-style: normal;
   font-weight: 800;
   font-size: 56px;
   line-height: 64px;
-  /* or 114% */
-  
   text-transform: uppercase;
-  
-  /* blue/400 */
-  
-  color: #F3F8FF;
-  }
+  color: #f3f8ff;
+  margin-bottom: 20px;
+}
+p.banner-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f3f8ff;
+  margin-bottom: 20px;
+}
 
 .do-you-relate {
-    height: 75vh;
-    min-height: 500px;
-    background-image: url('../img/efficient-image.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  
+  height: 75vh;
+  min-height: 500px;
+  background-image: url("../img/efficient-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.scalable {
+  background: #f3f8ff;
+}
+.scalable ul {
+  max-width: 620px;
+}
+.scalable li {
+  background: url(../img/pointers.svg) no-repeat left 9px;
+  padding-left: 40px;
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 12px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #5d5e6c;
+}
 
 @media (max-width: 1199.98px) {
 }
