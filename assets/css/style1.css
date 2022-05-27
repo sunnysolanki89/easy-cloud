@@ -8,14 +8,14 @@
   src: url(Avenir-Heavy.ttf);
   font-weight: 700;
 }
-ul {
+ul.custom-li {
   max-width: 620px;
   list-style-type: none;
   padding: 0;
   margin: 20px 0;
   display: grid;
 }
-li {
+ul.custom-list li {
   padding-left: 40px;
   width: 100%;
   float: left;
@@ -31,14 +31,14 @@ li {
   color: #5d5e6c;
 }
 
-h4{
-    font-family: 'Futura';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 30px;
-text-transform: capitalize;
-color: #333333;
+h4 {
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #333333;
 }
 
 .btn-primary {
@@ -91,30 +91,30 @@ p.banner-text {
 .scalable li {
   background: url(../img/pointers.svg) no-repeat left 9px;
 }
-.process-svg g circle{
-    transition:all ease-in-out 300ms;
-    -webkit-transition:all ease-in-out 300ms;
-    -moz-transition:all ease-in-out 300ms;
-    -ms-transition:all ease-in-out 300ms;
-    -o-transition:all ease-in-out 300ms;
+.process-svg g circle, .process-svg g path {
+  transition: all ease-in-out 300ms;
+  -webkit-transition: all ease-in-out 300ms;
+  -moz-transition: all ease-in-out 300ms;
+  -ms-transition: all ease-in-out 300ms;
+  -o-transition: all ease-in-out 300ms;
 }
-.process-svg g:hover > circle{
-    fill: #1F85EA !important;
-    
+.process-svg #expert:hover circle, .process-svg #icon_4:hover circle, .process-svg #icon_3:hover circle, .process-svg #icon_2:hover circle, .process-svg #icon:hover circle, .process-svg #icon_5:hover circle {
+  fill: #1f85ea !important;
 }
-.process-svg g:hover > g path{
-    fill: #fff ;
+.process-svg #expert:hover > g path, .process-svg #icon_4:hover > g path, .process-svg #icon_3:hover > path, .process-svg #icon_2:hover >g path, .process-svg #icon:hover >g path, .process-svg #icon_5:hover >g path {
+  fill: #fff;
 }
-.process-svg g:hover > g#626631{
-    fill: inherit ;
+.process-svg g:hover > g#626631,
+.Vector {
+  fill: transparent;
 }
 
 .build {
   background: rgb(255, 255, 255);
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 1) 66%,
-    rgba(14, 82, 149, 1) 66%,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(14, 82, 149, 1) 70%,
     rgba(14, 82, 149, 1) 100%
   );
 }
@@ -123,19 +123,52 @@ p.banner-text {
   padding-left: 48px;
 }
 .industries .card-container {
-  background: #F8F9F9;
+  background: #f8f9f9;
   border-radius: 5px;
   padding: 32px 28px;
   height: 100%;
 }
 .industries .card-container:hover {
-    background: #F3F8FF;
-  }
+  background: #f3f8ff;
+}
 .industries .card-container p {
-  color: #5D5E6C;
+  color: #5d5e6c;
   margin-bottom: 0;
   padding-bottom: 0;
-  
+}
+
+.platform {
+  background-color: #f3f8ff;
+}
+.platform .neg-margin {
+  margin-top:-10%
+}
+
+.platform .card-container {  
+  height: 100%;
+}
+.platform .card-container .number {  
+    font-family: 'Futura';
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 0.6px;
+    color: #1F1D59;
+    margin-bottom: 8px;
+}
+.platform .card-container h5 {
+    font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 29px;
+
+color: #39374D;
+
+}
+.platform .card-container p {
+  color: #5d5e6c;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 @media (max-width: 1199.98px) {
