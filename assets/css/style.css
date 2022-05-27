@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("Avenir-Book.otf") format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url(Avenir-Heavy.ttf);
+  font-weight: 700;
+}
+
+.masthead {
+    height: 80vh;
+    min-height: 500px;
+    background-image: url('../img/hero-banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+}
