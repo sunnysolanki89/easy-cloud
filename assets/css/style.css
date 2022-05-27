@@ -26,38 +26,95 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Futura";
   font-weight: 500;
 }
 
-.heading{
-  font-family: 'Futura';
+.heading {
+  font-family: "Futura";
   font-size: 52px;
   line-height: 60px;
   text-transform: capitalize;
-  color: #39374D;
-  font-weight: 500;
-}
-
-.heading span{
-  font-family: 'Futura';
+  color: #39374d;
   font-weight: 300;
 }
 
-.masthead {
-  height: 80vh;
-  min-height: 500px;
-  background-image: url("../img/hero-banner-image.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.heading span {
+  font-family: "Futura";
+  font-weight: 500;
 }
 
-footer{
+/* HERO FORM */
+
+.hero-form{
+  background-image: url('../img/form-BG.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 60px 0;
+}
+
+.hero-form .title {
+  font-size: 32px;
+  line-height: 44px;
+  color: #39374d;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.hero-form form {
+  padding: 55px 75px;
+  background: #F8F9F9;
+  border-radius: 5px;
+}
+
+.hero-form .form-group {
+  margin-top: 35px;
+}
+
+.hero-form .form-control{
+  padding: 12px;
+  font-size: 16px;
+  line-height: 28px;
+  background: rgba(248, 249, 249, 0.05);
+  border: 1px solid #39374D;
+  border-radius: 4px;
+}
+
+.hero-form .form-btn {
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  padding: 12px;
+  background: #1F85EA;
+  border-radius: 4px;
+}
+
+.hero-form .content {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #5d5e6c;
+}
+
+/* FOOTER */
+
+footer {
   padding-top: 170px;
   padding-bottom: 70px;
-  background-color: #F4FAFB;
+  background-color: #f4fafb;
 }
 
 footer .about {
@@ -105,11 +162,11 @@ footer .footer-menu {
   margin-top: 70px;
 }
 
-.bottom-footer p{
+.bottom-footer p {
   margin-bottom: 0;
 }
 
-footer .footer-logo{
+footer .footer-logo {
   margin-bottom: 35px;
 }
 
