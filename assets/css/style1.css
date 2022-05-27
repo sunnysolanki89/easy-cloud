@@ -74,7 +74,7 @@ p.banner-text {
 }
 
 .do-you-relate {
-  height: 75vh;
+  height: 78vh;
   min-height: 500px;
   background-image: url("../img/efficient-image.jpg");
   background-size: cover;
@@ -141,7 +141,7 @@ p.banner-text {
   background-color: #f3f8ff;
 }
 .platform .neg-margin {
-  margin-top:-10%
+  margin-top:-7%
 }
 
 .platform .card-container {  
@@ -170,6 +170,15 @@ color: #39374D;
   margin-bottom: 0;
   padding-bottom: 0;
 }
+.measurable {
+    height: 75vh;
+    min-height: 500px;    
+    padding: 0;
+  }
+
+  .software p{
+    max-width: 350px;
+  }
 
 @media (max-width: 1199.98px) {
 }
