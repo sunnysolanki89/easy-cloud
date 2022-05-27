@@ -9,6 +9,21 @@
   font-weight: 700;
 }
 
+h1.banner-title{
+    font-family: 'Futura';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  /* or 114% */
+  
+  text-transform: uppercase;
+  
+  /* blue/400 */
+  
+  color: #F3F8FF;
+  }
+
 .do-you-relate {
     height: 75vh;
     min-height: 500px;
@@ -17,6 +32,8 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  
 
 @media (max-width: 1199.98px) {
 }
