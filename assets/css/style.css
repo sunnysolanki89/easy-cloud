@@ -567,16 +567,19 @@ footer .footer-logo {
   color: #39374d;
 }
 
+/* xl */
+
 @media (max-width: 1199.98px) {
 }
+
+/* lg */
 
 @media (max-width: 991.98px) {
 }
 
-@media (max-width: 767.98px) {
-}
+/* md */
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
 
   .testimonial-slider .box{
     margin: 0 5px;
@@ -586,4 +589,19 @@ footer .footer-logo {
     padding-right: 10%;
   }
 
+  .heading{
+    font-size: 24px;
+    line-height: 32px;
+  }
+
 }
+
+/* sm  */
+
+@media (max-width: 575.98px) {
+
+  
+
+}
+
+/* xs */
