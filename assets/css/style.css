@@ -68,6 +68,110 @@ section{
   color: #5D5E6C;
 }
 
+
+/* ENTERPRISE GRADE */
+
+.enterprise-grade .heading{
+  margin-bottom: 12px;
+}
+
+.enterprise-grade .box{
+  display: flex;
+  margin-top: 60px;
+}
+
+.enterprise-grade .box .icon{
+  margin-right: 25px;
+}
+
+.enterprise-grade .content .title{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: #39374D;
+}
+
+/* TESTIMONIALS */
+
+.testimonial-slider{
+  margin-top: 70px;
+}
+
+.testimonial-slider .box{
+  background: #F8F9F9;
+  border-radius: 8px;
+  padding: 40px 25px;
+  margin: 0 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-slider .box .quote{
+  margin-bottom: 35px;
+}
+
+.testimonial-slider .box .oneline-rev span{
+  font-weight: 700;
+}
+
+.testimonial-slider .box .oneline-rev{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+  color: #39374D;
+  margin-bottom: 24px;
+  min-height: 55px;
+}
+
+.testimonial-slider .box .text{
+  color: #5D5E6C;
+  margin-bottom: 22px;
+}
+
+.testimonial-slider .box .content .name{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #39374D;
+  margin-bottom: 4px;
+}
+
+.testimonial-slider .user-box{
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+.testimonial-slider .user-box .img{
+  margin-right: 15px;
+}
+
+.testimonial-slider .slick-track{
+    display: flex !important;
+}
+
+.testimonial-slider .slick-slide{
+    height: inherit !important;
+}
+
+.testimonials .slick-arrow svg circle{
+  transition: all 0.3s;
+}
+
+.testimonials .slick-arrow:hover svg circle{
+  fill: #0E5295;
+}
+
+.testimonials .slick-arrow:hover svg path{
+  stroke: #ffffff;
+}
+
+.testimonials .slick-arrow svg{
+  width: 66px;
+  margin-left: 10px;
+}
+
 /* GET PRODUCTIVE GET EASY CLOUD */
 
 .get-productive{
@@ -76,6 +180,11 @@ section{
 
 .get-productive .target{
   margin-left: -20px;
+  display: none;
+}
+
+.get-productive .target.active{
+  display: block;
 }
 
 .tabs{
@@ -119,6 +228,16 @@ section{
   text-transform: capitalize;
   color: #141414;
   margin-bottom: 5px;
+}
+
+/* CLIENT LOGOS */
+
+.zoom{
+  transition: all 0.3s;
+}
+
+.zoom:hover{
+  transform: scale(1.15);
 }
 
 /* OUR TEAM */
@@ -312,4 +431,13 @@ footer .footer-logo {
 }
 
 @media (max-width: 575.98px) {
+
+  .testimonial-slider .box{
+    margin: 0 5px;
+  }
+
+  .testimonial-slider .slick-list{
+    padding-right: 10%;
+  }
+
 }
