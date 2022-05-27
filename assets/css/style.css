@@ -31,6 +31,20 @@ h1, h2, h3, h4, h5, h6{
   font-weight: 500;
 }
 
+.heading{
+  font-family: 'Futura';
+  font-size: 52px;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #39374D;
+  font-weight: 500;
+}
+
+.heading span{
+  font-family: 'Futura';
+  font-weight: 300;
+}
+
 .masthead {
   height: 80vh;
   min-height: 500px;
