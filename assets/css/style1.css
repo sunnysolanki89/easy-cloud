@@ -73,7 +73,7 @@ p.banner-text {
   margin-bottom: 20px;
 }
 
-.do-you-relate {  
+.do-you-relate {
   background-image: url("../img/efficient-image.jpg");
   background-size: cover;
   background-position: center;
@@ -89,20 +89,31 @@ p.banner-text {
 .scalable li {
   background: url(../img/pointers.svg) no-repeat left 9px;
 }
-.process-svg{
-    width: 100%;
+.process-svg {
+  width: 100%;
 }
-.process-svg g circle, .process-svg g path {
+.process-svg g circle,
+.process-svg g path {
   transition: all ease-in-out 300ms;
   -webkit-transition: all ease-in-out 300ms;
   -moz-transition: all ease-in-out 300ms;
   -ms-transition: all ease-in-out 300ms;
   -o-transition: all ease-in-out 300ms;
 }
-.process-svg #expert:hover circle, .process-svg #icon_4:hover circle, .process-svg #icon_3:hover circle, .process-svg #icon_2:hover circle, .process-svg #icon:hover circle, .process-svg #icon_5:hover circle {
+.process-svg #expert:hover circle,
+.process-svg #icon_4:hover circle,
+.process-svg #icon_3:hover circle,
+.process-svg #icon_2:hover circle,
+.process-svg #icon:hover circle,
+.process-svg #icon_5:hover circle {
   fill: #1f85ea !important;
 }
-.process-svg #expert:hover > g path, .process-svg #icon_4:hover > g path, .process-svg #icon_3:hover > path, .process-svg #icon_2:hover >g path, .process-svg #icon:hover >g path, .process-svg #icon_5:hover >g path {
+.process-svg #expert:hover > g path,
+.process-svg #icon_4:hover > g path,
+.process-svg #icon_3:hover > path,
+.process-svg #icon_2:hover > g path,
+.process-svg #icon:hover > g path,
+.process-svg #icon_5:hover > g path {
   fill: #fff;
 }
 .process-svg g:hover > g#626631,
@@ -142,29 +153,28 @@ p.banner-text {
   background-color: #f3f8ff;
 }
 .platform .neg-margin {
-  margin-top:-7%
+  margin-top: -7%;
 }
 
-.platform .card-container {  
+.platform .card-container {
   height: 100%;
 }
-.platform .card-container .number {  
-    font-family: 'Futura';
-    font-size: 60px;
-    line-height: 60px;
-    letter-spacing: 0.6px;
-    color: #1F1D59;
-    margin-bottom: 8px;
+.platform .card-container .number {
+  font-family: "Futura";
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.6px;
+  color: #1f1d59;
+  margin-bottom: 8px;
 }
 .platform .card-container h5 {
-    font-family: 'Futura';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 29px;
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
 
-color: #39374D;
-
+  color: #39374d;
 }
 .platform .card-container p {
   color: #5d5e6c;
@@ -172,13 +182,12 @@ color: #39374D;
   padding-bottom: 0;
 }
 .measurable {
-       
-    padding: 0;
-  }
+  padding: 0;
+}
 
-  .software p{
-    max-width: 350px;
-  }
+.software p {
+  max-width: 350px;
+}
 
 @media (max-width: 1199.98px) {
 }
@@ -186,38 +195,38 @@ color: #39374D;
 @media (max-width: 991.98px) {
 }
 
-@media (max-width: 767.98px) { 
-    h1.banner-title{
-        font-size: 24px;
-        line-height: 32px;
-    }
-    .do-you-relate{
-        background-image: url("../img/efficient-image-mob.jpg");
-        height: 100vh;
-    }
-    ul.custom-list{
-        padding-left: 0;
-    }
-    ul.custom-list li{
-        font-size: 16px;
-        line-height: 24px;
-        padding-left: 30px;
-    }
-    .build li {
-        background: url(../img/tick.svg) no-repeat left 6px;
-          background-size: auto;
-        padding-left: 48px;
-        background-size: 16px;
-      }
-    .build {
-        background: rgb(255, 255, 255);
-        background: linear-gradient(
-          360deg,
-          rgba(255, 255, 255, 1) 70%,
-          rgba(14, 82, 149, 1) 70%,
-          rgba(14, 82, 149, 1) 100%
-        );
-      }
+@media (max-width: 767.98px) {
+  h1.banner-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .do-you-relate {
+    background-image: url("../img/efficient-image-mob.jpg");
+    height: 100vh;
+  }
+  ul.custom-list {
+    padding-left: 0;
+  }
+  ul.custom-list li {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 30px;
+  }
+  .build li {
+    background: url(../img/tick.svg) no-repeat left 6px;
+    background-size: auto;
+    padding-left: 48px;
+    background-size: 16px;
+  }
+  .build {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      360deg,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(14, 82, 149, 1) 70%,
+      rgba(14, 82, 149, 1) 100%
+    );
+  }
 }
 
 @media (max-width: 575.98px) {

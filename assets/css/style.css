@@ -91,10 +91,6 @@ section{
   box-shadow: none;
 }
 
-.navbar-collapse{
-  background-color: #F3F8FF;
-}
-
 
 /* IDEAL BUSINESS DEVELOPMENT PLATFORM */
 
@@ -603,6 +599,195 @@ footer .footer-logo {
   color: #39374d;
 }
 
+/* NEW CUSTOM CSS */
+
+ul.custom-li {
+  max-width: 620px;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  display: grid;
+}
+ul.custom-list li {
+  padding-left: 40px;
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 12px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #5d5e6c;
+}
+
+h4 {
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+.btn-primary {
+  background: #1f85ea;
+}
+.masthead {
+  height: 82vh;
+  min-height: 500px;
+  background-image: url("../img/hero-banner-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1.banner-title {
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  text-transform: uppercase;
+  color: #f3f8ff;
+  margin-bottom: 20px;
+}
+p.banner-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f3f8ff;
+  margin-bottom: 20px;
+}
+
+.do-you-relate {
+  background-image: url("../img/efficient-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+.scalable {
+  background: #f3f8ff;
+}
+.scalable ul {
+  max-width: 620px;
+}
+.scalable li {
+  background: url(../img/pointers.svg) no-repeat left 9px;
+}
+.process-svg {
+  width: 100%;
+}
+.process-svg g circle,
+.process-svg g path {
+  transition: all ease-in-out 300ms;
+  -webkit-transition: all ease-in-out 300ms;
+  -moz-transition: all ease-in-out 300ms;
+  -ms-transition: all ease-in-out 300ms;
+  -o-transition: all ease-in-out 300ms;
+}
+.process-svg #expert:hover circle,
+.process-svg #icon_4:hover circle,
+.process-svg #icon_3:hover circle,
+.process-svg #icon_2:hover circle,
+.process-svg #icon:hover circle,
+.process-svg #icon_5:hover circle {
+  fill: #1f85ea !important;
+}
+.process-svg #expert:hover > g path,
+.process-svg #icon_4:hover > g path,
+.process-svg #icon_3:hover > path,
+.process-svg #icon_2:hover > g path,
+.process-svg #icon:hover > g path,
+.process-svg #icon_5:hover > g path {
+  fill: #fff;
+}
+.process-svg g:hover > g#626631,
+.Vector {
+  fill: transparent;
+}
+
+.build {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(14, 82, 149, 1) 70%,
+    rgba(14, 82, 149, 1) 100%
+  );
+}
+.build li {
+  background: url(../img/tick.svg) no-repeat left 7px;
+  padding-left: 48px;
+}
+.industries .card-container {
+  background: #f8f9f9;
+  border-radius: 5px;
+  padding: 32px 28px;
+  height: 100%;
+}
+.industries .card-container:hover {
+  background: #f3f8ff;
+}
+.industries .card-container p {
+  color: #5d5e6c;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.platform {
+  background-color: #f3f8ff;
+}
+.platform .neg-margin {
+  margin-top: -7%;
+}
+
+.platform .card-container {
+  height: 100%;
+}
+.platform .card-container .number {
+  font-family: "Futura";
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.6px;
+  color: #1f1d59;
+  margin-bottom: 8px;
+}
+.platform .card-container h5 {
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+
+  color: #39374d;
+}
+.platform .card-container p {
+  color: #5d5e6c;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.measurable {
+  padding: 0;
+}
+
+.software p {
+  max-width: 500px;
+}
+
+.text-xl{
+  font-size: 30px;
+  line-height: 38px;
+}
+
+
 /* xl */
 
 @media (max-width: 1199.98px) {
@@ -616,6 +801,38 @@ footer .footer-logo {
 /* md */
 
 @media (max-width: 767.98px) {
+
+  h1.banner-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .do-you-relate {
+    background-image: url("../img/efficient-image-mob.jpg");
+    height: 100vh;
+  }
+  ul.custom-list {
+    padding-left: 0;
+  }
+  ul.custom-list li {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 30px;
+  }
+  .build li {
+    background: url(../img/tick.svg) no-repeat left 6px;
+    background-size: auto;
+    padding-left: 48px;
+    background-size: 16px;
+  }
+  .build {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      360deg,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(14, 82, 149, 1) 70%,
+      rgba(14, 82, 149, 1) 100%
+    );
+  }
 
   section {
     padding: 40px 0;
@@ -811,12 +1028,18 @@ footer .footer-logo {
   }
 
   .navbar-collapse{
+    background-color: #F3F8FF;
     padding: 10px 0;
   }
 
   .navbar-dark .navbar-nav .nav-link{
     color: #39374D;
     font-size: 16px;
+  }
+  
+  .text-xl {
+    font-size: 20px;
+    line-height: 28px;
   }
 
 }
