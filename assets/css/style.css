@@ -24,6 +24,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  position: relative;
 }
 
 h1,
@@ -66,6 +67,28 @@ section{
   font-size: 16px;
   line-height: 24px;
   color: #5D5E6C;
+}
+
+/* NAVIGATION */
+
+.navbar{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar-nav .nav-item{
+  margin: 0 23px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none;
 }
 
 /* IDEAL BUSINESS DEVELOPMENT PLATFORM */
@@ -486,6 +509,14 @@ section{
   color: #5d5e6c;
 }
 
+/* CALENDLY */
+
+.calendly-container{
+  margin-bottom: -120px;
+  padding-bottom: 0;
+  padding-top: 40px;
+}
+
 /* FOOTER */
 
 footer {
@@ -581,17 +612,197 @@ footer .footer-logo {
 
 @media (max-width: 767.98px) {
 
+  section {
+    padding: 40px 0;
+  }
+
+  .hr-scroll{
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+
+  .testimonial-slider{
+    margin-top: 0;
+  }
+
   .testimonial-slider .box{
     margin: 0 5px;
+    padding: 20px;
   }
 
   .testimonial-slider .slick-list{
     padding-right: 10%;
   }
 
+  .testimonial-slider .box .oneline-rev {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    min-height: 40px;
+  }
+
+  .testimonial-slider .box .content .name {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0px;
+  }
+
   .heading{
     font-size: 24px;
     line-height: 32px;
+  }
+
+  .text-lg{
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .ideal-BDP .box {
+    background: #F8F9F9;
+    border-radius: 15px;
+    padding: 0 25px 30px;
+    height: auto;
+    margin-bottom: 60px;
+  }
+
+  .future-software .heading{
+    margin-bottom: 20px;
+  }
+
+  .future-software .hr-scroll{
+    margin-top: 20px;
+  }
+
+  .future-software .box .text {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .future-software .box .title{
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 10px;
+  }
+
+  .mission-critical .heading{
+    text-align: center;
+  }
+
+  .mission-critical .item-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .mission-critical .item-text br{
+    display: none;
+  }
+
+  .hero-form .title{
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .hero-form form {
+    padding: 25px 25px;
+  }
+
+  .ideal-BDP .box .icons{
+    width: 60px;
+  }
+
+  .mid-banner .title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .ideal-BDP .box .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .mission-critical .icon-holder {
+    height: 150px;
+    padding: 0 0px 30px;
+    position: relative;
+    margin-top: 65px;
+  }
+
+  .our-team .team-box {
+    margin-top: 30px;
+  }
+
+  .our-team .img {
+    margin-bottom: 8px;
+  }
+
+  .team-box .name{
+    margin-bottom: 0;
+  }
+
+  .team-box .designation {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .tabs.active::before{
+    display: none;
+  }
+
+  .tabs{
+    margin-right: 0;
+  }
+
+  .enterprise-grade .box{
+    margin-top: 30px;
+  }
+
+  .enterprise-grade .content .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .enterprise-grade .box .icon {
+    margin-right: 20px;
+  }
+
+  .testimonials .slick-arrow{
+    display: none !important;
+  }
+
+  .get-productive .target{
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  footer .about{
+    margin-bottom: 25px;
+  }
+
+  footer .footer-menu{
+    margin: 20px 0;
+  }
+
+  .calendly-container {
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  .bottom-footer {
+    margin-top: 40px;
+  }
+
+  .bottom-footer p{
+    text-align: center;
+    margin-top: 15px;
   }
 
 }
