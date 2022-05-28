@@ -89,6 +89,9 @@ p.banner-text {
 .scalable li {
   background: url(../img/pointers.svg) no-repeat left 9px;
 }
+.process-svg{
+    width: 100%;
+}
 .process-svg g circle, .process-svg g path {
   transition: all ease-in-out 300ms;
   -webkit-transition: all ease-in-out 300ms;
@@ -190,6 +193,7 @@ color: #39374D;
     }
     .do-you-relate{
         background-image: url("../img/efficient-image-mob.jpg");
+        height: 100vh;
     }
     ul.custom-list{
         padding-left: 0;
@@ -199,6 +203,12 @@ color: #39374D;
         line-height: 24px;
         padding-left: 30px;
     }
+    .build li {
+        background: url(../img/tick.svg) no-repeat left 6px;
+          background-size: auto;
+        padding-left: 48px;
+        background-size: 16px;
+      }
     .build {
         background: rgb(255, 255, 255);
         background: linear-gradient(
