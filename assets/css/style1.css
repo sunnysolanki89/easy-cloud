@@ -73,9 +73,7 @@ p.banner-text {
   margin-bottom: 20px;
 }
 
-.do-you-relate {
-  height: 78vh;
-  min-height: 500px;
+.do-you-relate {  
   background-image: url("../img/efficient-image.jpg");
   background-size: cover;
   background-position: center;
@@ -171,8 +169,7 @@ color: #39374D;
   padding-bottom: 0;
 }
 .measurable {
-    height: 75vh;
-    min-height: 500px;    
+       
     padding: 0;
   }
 
@@ -186,7 +183,31 @@ color: #39374D;
 @media (max-width: 991.98px) {
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 767.98px) { 
+    h1.banner-title{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .do-you-relate{
+        background-image: url("../img/efficient-image-mob.jpg");
+    }
+    ul.custom-list{
+        padding-left: 0;
+    }
+    ul.custom-list li{
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 30px;
+    }
+    .build {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(
+          360deg,
+          rgba(255, 255, 255, 1) 70%,
+          rgba(14, 82, 149, 1) 70%,
+          rgba(14, 82, 149, 1) 100%
+        );
+      }
 }
 
 @media (max-width: 575.98px) {
