@@ -91,6 +91,11 @@ section{
   box-shadow: none;
 }
 
+.navbar-collapse{
+  background-color: #F3F8FF;
+}
+
+
 /* IDEAL BUSINESS DEVELOPMENT PLATFORM */
 
 .ideal-BDP .heading{
@@ -803,6 +808,15 @@ footer .footer-logo {
   .bottom-footer p{
     text-align: center;
     margin-top: 15px;
+  }
+
+  .navbar-collapse{
+    padding: 10px 0;
+  }
+
+  .navbar-dark .navbar-nav .nav-link{
+    color: #39374D;
+    font-size: 16px;
   }
 
 }
